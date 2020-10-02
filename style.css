@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    --bodybackgroundcolor: #df2323;
+    --linkcolor: #e8f809;
+    --title: #fdba00;
+    --textcolor: rgb(42, 6, 250);
+    --headerbackgroundcolor: #31f809;
+    font: 20px/1 "Roboto", "Open-Sans";
+}
+body{
+    background: rgb(9, 5, 230);
+    background: radial-gradient(circle, rgb(3, 3, 3) 0%, rgb(10, 14, 240) 85%);
+}
+.wrapper{
+    background-color: var(--bodybackgroundcolor);
+    margin: 0 auto;
+    max-width: 50rem;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 5rem auto 1.2rem;
+    min-height: 100vh;
+}
+
+
+p{
+    color: var(--textcolor);
+    margin: 1rem auto;
+    text-align: justify;
+    text-justify: auto;
+}
+a{
+    color: var(--linkcolor);
+    text-decoration: none;
+}
+img{
+    width: 25%;
+}
+h2{
+    margin-bottom: 1rem;
+    color: var(--textcolor);
+}
+ul{
+    list-style: none;
+}
+li{
+    color: var(--textcolor);
+}
+article{
+    margin: 3rem auto;
+    max-width: 40rem;
+    width: 85%;
+    display: flex;
+}
+hr{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: .5rem;
+    border-radius: 6px;
+    background-color: var(--headerbackgroundcolor);
+}
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+figcaption{
+    font-size: 0.3rem;
+    display: none;
+}
+
+.personal-info{
+    display: flex;
+    align-items: flex-start;
+}
+.personal-info-grid{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto auto;
+}
+.personal-info__image-container{
+    padding: 0;
+    margin-bottom: 2rem;
+}
+.personal-info__content-container{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: space-evenly;
+}
+.personal-info__content-title{
+    color: var(--headerbackgroundcolor);
+    text-size-adjust: 1rem;
+}
+.personal-info__content{
+    margin: 0;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--headerbackgroundcolor);
+    padding: 1rem 2rem;
+}
+.main-header__title{
+    color: var(--title);
+    font-size: 3.5rem;
+}
+.navigation__list{
+    display: flex;
+}
+.navigation__list-item{
+    margin-right: .8rem;
+
+}
+.navigation__list-item:last-child{
+    margin-right: 0;
+}
+.sidebar{
+    color: var(--linkcolor);
+    font-style: oblique;
+}
+.projects{
+    display: flex;
+}
+.projects__list-item{
+    margin: 2rem auto;
+}
+.projects__list-link{
+    text-decoration: underline;
+}
+.contact-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact-me__list{
+    display: flex;
+    flex-direction: row;
+}
+.contact-me__list-item-image{
+    width: 2rem;
+    margin: .25rem;
+}
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: .5rem;  
+}
+.back-to-top-button{
+    padding: 0;
+    margin: 0;
+    opacity: .5;
+}
+.footer__wcci-logo{
+    justify-self: flex-start;
+    width: 2rem;
+}
