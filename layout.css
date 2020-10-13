@@ -3,3 +3,57 @@
     grid-template-columns: repeat(2,1fr);
 
 }
+.personal-info_headshot{
+    height: 300px;
+    width: 400px;
+    
+}
+
+.contact-me_list-item-image{
+    border-radius: 15px;
+}
+
+/* .projects{
+    display: grid;
+    grid-template-rows: 200px 350px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 2rem;
+} */
+.virtualpetshelter-image{
+    border-radius: 15px;
+}
+/* h2, #Projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.container {
+    display: flex;
+    margin: 2rem auto;
+    padding: 11px;
+    max-width: 1000px;
+    /* flex-wrap: wrap;  */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 20rem;
+}
+.github-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.virtualpetshelter-image{
+    width: 100%;
+    border-radius: 15px;
+}
+.project-image{
+    width: 100%;
+}
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
